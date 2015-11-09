@@ -204,3 +204,8 @@ Fanatics.Website/config.Staging.json
 *.min.js
 Fanatics.Data/Properties/launchSettings.json
 project.lock.json
+wwwroot/lib/bootstrap/examples/
+wwwroot/lib/bootstrap/js/tests/
+wwwroot/lib/jquery/src/
+wwwroot/lib/jquery-validation/demo/
+wwwroot/lib/jquery-validation/test/
