@@ -6,6 +6,9 @@ RUN bash -c "source $DNX_USER_HOME/dnvm/dnvm.sh \
 	&& dnvm alias default | xargs -i ln -s $DNX_USER_HOME/runtimes/{} $DNX_USER_HOME/runtimes/default \
 	&& dnvm list"
 
+# Not being read from global.json anymore
+ENV DNX_PACKAGES=/app/approot/packages
+
 ADD . /app
 
 WORKDIR /app
